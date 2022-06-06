@@ -12,7 +12,7 @@ INSERT INTO timetable (timecode, class, week, period)
  VALUES (1, '2U', '月', 1);
 
 INSERT INTO timetable (timecode, class, week, period) 
- VALUES 32, '2J', '火' , 1);
+ VALUES (2, '2J', '火' , 1);
 
 INSERT INTO timetable (timecode, class, week, period) 
  VALUES (5, '2K', '木', 6);
