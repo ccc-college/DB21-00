@@ -3,8 +3,8 @@ use study;
 
 CREATE TABLE timetable (
    timecode INT NOT NULL PRIMARY KEY,
-   class VARCHAR(2) NULL,
-   week VARCHAR(2) NULL,
+   class VARCHAR(4) NULL,
+   week VARCHAR(4) NULL,
    period INT NULL
 );
 
