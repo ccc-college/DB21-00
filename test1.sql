@@ -9,14 +9,14 @@ CREATE TABLE timetable (
 );
 
 INSERT INTO timetable (timecode, class, week, period) 
- VALUES (1, '2U', 'åé', 1);
+ VALUES (1, '2U', 'Êúà', 1);
 
 INSERT INTO timetable (timecode, class, week, period) 
- VALUES 32, '2J', 'âŒ' , 1);
+ VALUES 32, '2J', 'ÁÅ´' , 1);
 
 INSERT INTO timetable (timecode, class, week, period) 
- VALUES (5, '2K', 'ñÿ', 6);
+ VALUES (5, '2K', 'Êú®', 6);
 
 INSERT INTO timetable (timecode, class, week, period) 
- VALUES (6, '2N', 'êÖ', 3);
+ VALUES (6, '2N', 'Ê∞¥', 3);
 
