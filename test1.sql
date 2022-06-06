@@ -1,6 +1,7 @@
-create database study default character set utf8mb4;
-use study;
-
+DROP DATABASE IF EXISTS study;
+CREATE DATABASE study DEFAULT CHARACTER SET utf8mb4;
+USE study;
+DROP TABLE IF EXISTS timetable;
 CREATE TABLE timetable (
    timecode INT NOT NULL PRIMARY KEY,
    class VARCHAR(4) NULL,
