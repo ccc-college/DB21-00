@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS students;
 CREATE TABLE students (
   student_id CHAR(5) NOT NULL PRIMARY KEY,
   stdnt_name VARCHAR(255) NOT NULL,
-  student_yomi VARCHAR(255) NOT NULL,
+  name_yomi VARCHAR(255) NOT NULL,
   year CHAR(4) NOT NULL,
   kamoku VARCHAR(255),
   score INT(4)
