@@ -5,7 +5,7 @@ use dbexm;
 DROP TABLE IF EXISTS students;
 CREATE TABLE students (
   student_id CHAR(5) NOT NULL PRIMARY KEY,
-  student_name VARCHAR(255) NOT NULL,
+  stdnt_name VARCHAR(255) NOT NULL,
   student_yomi VARCHAR(255) NOT NULL,
   year CHAR(4) NOT NULL,
   kamoku VARCHAR(255),
