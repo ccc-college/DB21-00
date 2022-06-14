@@ -8,11 +8,11 @@ CREATE TABLE timetable (
    period INT NULL
 );
 
-INSERT INTO students (timecode, class, week, period) VALUES 
+INSERT INTO timetable (timecode, class, week, period) VALUES 
 (1, '2U', '月', 1);
-INSERT INTO students (timecode, class, week, period) VALUES 
+INSERT INTO timetable (timecode, class, week, period) VALUES 
 (2, '2J', '火' , 1);
-INSERT INTO students (timecode, class, week, period) VALUES 
+INSERT INTO timetable (timecode, class, week, period) VALUES 
 (5, '2K', '木', 6);
-INSERT INTO students (timecode, class, week, period) VALUES 
+INSERT INTO timetable (timecode, class, week, period) VALUES 
 (6, '2N', '水', 3);
